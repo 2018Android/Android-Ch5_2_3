@@ -5,13 +5,13 @@ import android.os.Bundle;
 import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String TAG = "Ch5_2_3";
+    private static final String TAG = "Ch5_2_3"; //private：別的類別不能使用，static：靜態的方法，final String：宣告不可變動之常數 TAG
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "Activity Ch5_2_3:onCreate");
+        Log.d(TAG, "Activity Ch5_2_3:onCreate"); // Log.d：debug訊息
     }
 
     @Override
